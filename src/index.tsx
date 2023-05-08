@@ -6,6 +6,7 @@ import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import Projects from "./pages/Projects";
 import reportWebVitals from './reportWebVitals';
 import { Grommet, grommet, Heading } from "grommet";
@@ -27,6 +28,7 @@ root.render(
           <Route path="/Education" element={<Education/>}/>
           <Route path="/Projects" element={<Projects/>}/>
           <Route path="/About" element={<About/>}/>
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
         <AppFooter/>
       </BrowserRouter>

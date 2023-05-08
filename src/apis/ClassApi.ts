@@ -5,6 +5,25 @@
  *    For: 
  *    Description:
 */
-export function helloWorld(){
-    console.log("Hello World!");
+import FirebaseApi from "./firebaseApi";
+import Class from "../models/Class";
+
+export class ClassApi {
+
+    public static async getClasses(): Class[]{
+        const classDocs: any = await FirebaseApi.getCollection('classes');
+        const classes: Class[] = classDocs.map((doc) => {
+            return new Class(
+                doc.data.department,
+                doc.data.grade,
+                doc.data.num,
+                doc.data.school,
+                doc.data.term,
+                doc.data.title,
+                doc.data.year
+            );
+        })
+        return classes;
+    }
+
 }

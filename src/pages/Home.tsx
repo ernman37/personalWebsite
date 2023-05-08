@@ -30,7 +30,6 @@ export default function Home(){
                     <Image margin='medium' alignSelf='center' height="220px" width="320px" src={Website}/>
                     <Paragraph textAlign="center" alignSelf='center'>
                         This website is built on TypeScript React and utilizes Google Firebase for a database. I used this website to better my understanding of reactive website design and project management. 
-                       
                     </Paragraph>
                 </Box>
             </Box>
