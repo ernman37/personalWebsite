@@ -19,20 +19,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Grommet>
-      <BrowserRouter>
-        <AppHeader/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/Experience" element={<Experience/>}/>
-          <Route path="/Education" element={<Education/>}/>
-          <Route path="/Projects" element={<Projects/>}/>
-          <Route path="/About" element={<About/>}/>
-          <Route path="*" element={<NotFound/>}/>
-        </Routes>
-        <AppFooter/>
-      </BrowserRouter>
-    </Grommet>
+    <App/>
   </React.StrictMode>
 );
 
