@@ -15,10 +15,10 @@ const firebaseConfig = {
     measurementId: "G-BL6CWMM981"
 };
 
-export class FirebaseApi{
+export default class FirebaseApi{
     private static app: FirebaseApp = firebase.initializeApp(firebaseConfig);
 
-    private static database: Firestore = getFirestore(Firebase.app);
+    private static database: Firestore = getFirestore(FirebaseApi.app);
 
     public static async getCollection(collectionPath: string){
         const docsRef = this.getCollectionRef(collectionPath);
