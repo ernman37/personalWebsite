@@ -20,7 +20,7 @@ export const AppHeader = () => {
     return availablePages.map((page) => {
       return {
         label: <Box pad="small">{page}</Box>,
-        href: (page === "Home" ? "/" : page),
+        href: (page === "Home" ? "/" : '/' + page),
       };
     })
   };
@@ -45,7 +45,7 @@ export const AppHeader = () => {
       <Box direction='row'>
         <Avatar src={Ernest}/>
         <Text alignSelf="center" margin="small">
-          Ernests Website
+          Ernest Duckworth
         </Text>
       </Box>
       <ResponsiveContext.Consumer>
