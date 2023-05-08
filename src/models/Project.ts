@@ -5,6 +5,32 @@
  *    For: 
  *    Description:
 */
-export function helloWorld(){
-    console.log("Hello World!");
+export default class Project{
+    private _description: string;
+    private _languages: string[];
+    private _title: string;
+    private _type: string;
+
+    constructor(description: string, languages: string[], title: string, type: string){
+        this._description = description;
+        this._languages = languages;
+        this._title = title;
+        this._type = type;
+    }
+
+    get description(){
+        return this._description;
+    }
+
+    get languages(){
+        return this._languages;
+    }
+
+    get title(){
+        return this._title;
+    }
+
+    get type(){
+        return this._type;
+    }
 }
