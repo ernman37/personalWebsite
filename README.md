@@ -13,5 +13,8 @@ View at hosted sites via
 
 #### Directions
 
+- Download the repository
+- If you don't have it already download `npm`
+- Run `npm install`
 - Run `npm start` within project directory
 - View on local host port 3000 (localhost:3000)
