@@ -11,7 +11,7 @@ import { ClassApi } from "../apis/ClassApi";
 import { useState, useEffect } from "react";
 import  ClassCard  from "../components/cards/ClassCard";
 
-export default function Education(){
+export default function EducationPage(){
     const [classes, setClasses] = useState<Class[]>([]);
 
     useEffect(() => {
