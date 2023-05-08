@@ -5,7 +5,7 @@
  *    For: 
  *    Description:
 */
-import {Box, Paragraph, Heading, Image} from "grommet";
+import {Box, Paragraph, Heading, Image, Anchor} from "grommet";
 import Ernest from '../photos/Ernest-Duckworth.jpeg'
 import Website from '../photos/Website.png'
 
@@ -31,6 +31,12 @@ export default function Home(){
                     <Paragraph textAlign="center" alignSelf='center'>
                         This website is built on TypeScript React and utilizes Google Firebase for a database. I used this website to better my understanding of reactive website design and project management. 
                     </Paragraph>
+                </Box>
+                <Box alignSelf='center' pad='medium'>
+                    <Anchor 
+                        label='View Source Code'
+                        href="https://github.com/ernman37/personalWebsite"/>
+                
                 </Box>
             </Box>
         </Box>
