@@ -42,10 +42,10 @@ export default function EducationPage(){
                 </Heading>
                 <Box alignSelf='center' flex='grow'>
                     <Paragraph textAlign='center'>
-                        Currently I am attending Colorado State University. I have been lucky enough to able to be apart of two research studies with a focus on Blockchains and Website Development.
+                        I have a bachelors in Computer Science from Colorado State University with a concentration in Software Engineering.
                     </Paragraph>
                     <Paragraph textAlign='center'>
-                        I have been interested in Computer Science since I was in Highschool where I began taking courses at Arapahoe Community College.
+                        I have been interested in Computer Science since I was in Highschool where I began taking intro level courses at Arapahoe Community College.
                     </Paragraph>
                 </Box>
                 <Heading alignSelf='center'>

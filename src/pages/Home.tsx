@@ -19,7 +19,7 @@ export default function Home(){
                 </Heading>
                 <Box alignSelf='center' pad='medium' direction='row-responsive' flex='grow'>
                     <Paragraph textAlign="center" alignSelf='center'>
-                        Hello my name is Ernest, I am a Software Engineer currently getting my bachelors in Computer Science with a concentration in Software Engineering at Colorado State University. <br/> Go Rams! 
+                        Hello my name is Ernest, I am a Systems Software Engineer at Hewlett Packard Enterprise. I graduated from CSU with a bachelors in Computer Science concentrating in Software Engineering in Spring 2024.  <br/> Go Rams! 
                     </Paragraph>
                     <Image margin='medium' alignSelf='center' height="180px" width="200px" src={Ernest}/>
                 </Box>

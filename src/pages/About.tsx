@@ -54,10 +54,10 @@ export default function EducationPage(){
                 </Heading>
                 <Box alignSelf='center' flex='grow'>
                     <Paragraph textAlign='center'>
-                        My name is Ernest Duckworth IV. I am an undergraduate student at Colorado State University studying Computer Science with a concentration in Software Engineering. 
+                        My name is Ernest Duckworth IV, I have a bachelors in Computer Science from Colorado State University with a concentration in Software Engineering. 
                     </Paragraph>
                     <Paragraph textAlign='center'>
-                        I currently am a research assistant at CSU working on Blockchain construction and query execution. This Summer I will be interning at Hewlett Packard Enterprises as a Software Engineering Intern. 
+                        I am currently a full time employee at HPE working in Release Engineering. 
                     </Paragraph>
                 </Box>
                 <Heading alignSelf='center'>
