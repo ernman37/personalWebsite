@@ -30,10 +30,10 @@ export default function ProjectsPage(){
                 </Heading>
                 <Box alignSelf='center' flex='grow'>
                     <Paragraph textAlign='center'>
-                        I have been lucky enough to be apart of two research studies throughout my time at CSU. I have accepted a position at Hewlett Packard Enterprises as a Software Engineering Intern for the Summer of 2023 I am so excited to begin my journey in corporate world of CS! 
+                        I have been lucky enough to be apart of two research studies throughout my time at CSU. I also interned with Hewlett Packard Enterprise as a Software Engineering Intern for the Summer of 2023. I am extremely grateful to have accepted a full-time position at Hewlett Packard Enterprise as a Systems Software Engineer.
                     </Paragraph>
                     <Paragraph textAlign='center'>
-                        I look forward to continuously learning after I graduate from CSU and expanding my knowledge and skills in the world of Computer Science. 
+                        I continuously look for projects to work on after work and love the art of Computer Science and Software Engineering. 
                     </Paragraph>
                 </Box>
             </Box>
